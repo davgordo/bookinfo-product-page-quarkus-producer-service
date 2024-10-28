@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "product-page-quarkus-producer"
+  description: "Product Page Service"
+  tags:
+    - java
+  links:
+    - url: https://devspaces.apps.cluster-ldvg8.ldvg8.sandbox2768.opentlc.com/?storageType=per-workspace#https://github.com/davgordo/bookinfo-product-page-quarkus-producer-service
+      title: OpenShift Dev Spaces
+      icon: web
+    - url: https://hawtio-online.apps.cluster-ldvg8.ldvg8.sandbox2768.opentlc.com/online/discover?namespace=system=bookinfo
+      title: HawtIO
+      icon: web
+  annotations:
+    github.com/project-slug: "davgordo/bookinfo-product-page-quarkus-producer-service"
+    backstage.io/kubernetes-id: "product-page-quarkus-producer"
+    backstage.io/kubernetes-label-selector: "system=bookinfo"
+    janus-idp.io/tekton : "product-page-quarkus-producer-service"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/backstage-admins"
+  system: system:default/bookinfo
+  providesApis: 
+    - product-page
