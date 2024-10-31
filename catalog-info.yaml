@@ -6,10 +6,10 @@ metadata:
   tags:
     - java
   links:
-    - url: https://devspaces.apps.cluster-ldvg8.ldvg8.sandbox2768.opentlc.com/?storageType=per-workspace#https://github.com/davgordo/bookinfo-product-page-quarkus-producer-service
+    - url: https://devspaces.apps.cluster-p28j5.p28j5.sandbox1687.opentlc.com/?storageType=per-workspace#https://github.com/davgordo/bookinfo-product-page-quarkus-producer-service
       title: OpenShift Dev Spaces
       icon: web
-    - url: https://hawtio-online-hawtio-operator.apps.cluster-ldvg8.ldvg8.sandbox2768.opentlc.com/online/discover?namespace=system=bookinfo
+    - url: https://hawtio-online-hawtio-operator.apps.cluster-p28j5.p28j5.sandbox1687.opentlc.com/online/discover?namespace=system=bookinfo
       title: HawtIO
       icon: web
   annotations:
